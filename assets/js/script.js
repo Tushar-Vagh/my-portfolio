@@ -55,6 +55,47 @@ overlay.addEventListener("click", testimonialsModalFunc);
 
 
 
+// blog variables
+const blogItem = document.querySelectorAll("[data-blogs-item]");
+const modalContainer1 = document.querySelector("[data-modal-container-1]");
+const modalCloseBtn1 = document.querySelector("[data-modal-close-btn-1]");
+const overlay1 = document.querySelector("[data-overlay-1]");
+
+// modal variable
+const modalImg1 = document.querySelector("[data-modal-img-1]");
+const modalTitle1 = document.querySelector("[data-modal-title-1]");
+const modalText1 = document.querySelector("[data-modal-text-1]");
+
+// modal toggle function
+const blogModalFunc = function () {
+  modalContainer1.classList.toggle("active");
+  overlay1.classList.toggle("active");
+}
+
+// add click event to all modal items
+for (let i = 0; i < blogItem.length; i++) {
+
+  blogItem[i].addEventListener("click", function () {
+
+    modalImg1.src = this.querySelector("[data-blog-img]").src;
+    modalImg1.alt = this.querySelector("[data-blog-img]").alt;
+    modalTitle1.innerHTML = this.querySelector("[data-blog-title]").innerHTML;
+    modalText1.innerHTML = this.querySelector("[data-blog-text]").innerHTML;
+
+    blogModalFunc();
+
+  });
+
+}
+
+// add click event to modal close button
+modalCloseBtn1.addEventListener("click", blogModalFunc);
+overlay1.addEventListener("click", blogModalFunc);
+
+
+
+
+
 // custom select variables
 const select = document.querySelector("[data-select]");
 const selectItems = document.querySelectorAll("[data-select-item]");

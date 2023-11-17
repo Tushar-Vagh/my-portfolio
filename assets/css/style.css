@@ -113,6 +113,7 @@ li { list-style: none; }
 
 img, ion-icon, a, button, time, span { display: block; }
 
+
 button {
   font: inherit;
   background: none;
@@ -667,7 +668,7 @@ main {
   box-shadow: var(--shadow-2);
 }
 
-.modal-img-wrapper > img { display: none; }
+/* .modal-img-wrapper > img { display: none; } */
 
 .modal-title { margin-bottom: 4px; }
 
@@ -1538,7 +1539,7 @@ textarea.form-input::-webkit-resizer { display: none; }
     max-width: 680px;
   }
 
-  .modal-avatar-box img { width: 80px; }
+  .modal-avatar-box-1 img { height:250px; width: 250px; }
 
 
 
