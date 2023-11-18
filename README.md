@@ -29,5 +29,5 @@ git clone https://github.com/Tushar-Vagh/my-portfolio.git
 
 ## Contact
 
-If you want to contact me you can reach me at [Email](trvagh123@gmail.com).
+If you want to contact me you can reach me at (trvagh123@gmail.com).
 
