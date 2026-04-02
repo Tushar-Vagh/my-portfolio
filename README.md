@@ -7,9 +7,6 @@ This is a fully responsive personal portfolio website, responsive for all device
 ![Desktop Demo](./website-demo-image/desktop.png "Desktop Demo")
 ![Mobile Demo](./website-demo-image/mobile.png "Mobile Demo")
 
-## Live Website
-
-Link:- https://myportfolio98.netlify.app
 
 ## Installing
 
